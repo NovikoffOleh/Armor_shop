@@ -129,6 +129,7 @@ li {
 }
 
 .main__content {
+    flex: 0 1 50%;
     align-self: flex-end;
     padding-bottom: 60px;
     padding-right: 20px;
@@ -145,11 +146,21 @@ li {
 }
 
 
-.main_text {}
+.main__text {
+    line-height: 24px;
+    font-weight: 500;
+    max-width: 420px;
+}
+.main__text:not(:last-child) {
+    margin-bottom: 31px;
+}
 
 .main__actions {}
 
-.actions-main {}
+.actions-main {
+    display: flex;
+    align-items: center;
+}
 
 .actions-main__button {
     padding: 18.5px 48px;
@@ -160,10 +171,20 @@ li {
     border-radius: 40px;
     color: white;
 }
+.actions-main__button:not(:last-child){
+    margin-right: 40px;
+}
 
-.actions-main__icon {}
+.actions-main__icon {
+    
+}
+.actions-main__icon:not(:last-child){
+    margin-right: 27px;
+}
 
-.main__decor {}
+.main__decor {
+    flex: 0 1 50%;
+}
 
 .decor-main {}
 
