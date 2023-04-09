@@ -341,10 +341,22 @@ li {
 .body-store__item {
 }
 .item {
+    display: grid;
 }
 .item__image {
 }
+.item__image:not(:last-child) {
+    margin-bottom: 40px;
+}
 .item__title {
+    color: #121212;
+    line-height: 1.5;
+    font-size: 16px;
+    justify-self: start;;
+}
+.item__title:hover {
+  opacity: 0.8;
+  text-decoration: underline;
 }
 .item__price {
 }
