@@ -44,9 +44,12 @@ li {
     display: flex;
     flex-direction: column;
 }
+/* ---------------------------------------- */
 .page{
     flex: 1 1 auto;
 }
+
+.page__main {}
 
 /* ------------------------------------------- */
 [class *="__container"]{
@@ -55,7 +58,13 @@ li {
     padding: 0 15px;
 }
 
-.header {}
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 50;
+}
 
 .header__container {
     display: flex;
@@ -86,6 +95,9 @@ li {
 .shield{
     margin-bottom: -5px;
 }*/
+.armor{
+    color: #FF6428;
+}
 
 .header__menu {}
 
@@ -104,5 +116,55 @@ li {
 }
 .menu__link:hover{
     opacity: 0.8;
-    color: rgb(50, 75, 241);
+    color: rgb(46, 164, 7);
 }
+
+/*======== Тіло сторінки ===============*/
+.main{
+    padding-bottom: 80px;
+}
+
+.main__container {
+    display: flex;
+}
+
+.main__content {
+    align-self: flex-end;
+    padding-bottom: 60px;
+    padding-right: 20px;
+}
+
+.main__title {
+    font-family: CalSans;
+    color: rgb(19, 19, 19);
+    font-size: 56px;
+    line-height: 67px;
+}
+.main__title:not(:last-child){
+    margin-bottom: 16px;
+}
+
+
+.main_text {}
+
+.main__actions {}
+
+.actions-main {}
+
+.actions-main__button {
+    padding: 18.5px 48px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    background-color: #FF6428;
+    border-radius: 40px;
+    color: white;
+}
+
+.actions-main__icon {}
+
+.main__decor {}
+
+.decor-main {}
+
+.decor-main__image {}
