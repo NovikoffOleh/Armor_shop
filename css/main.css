@@ -77,6 +77,10 @@ li {
     line-height: 45px;
     color: #034c11;
 }
+.ammo:hover {
+    opacity: 0.8;
+    color: rgb(55, 56, 55);
+}
 .shield{
     margin-bottom: -5px;
 }
@@ -92,4 +96,11 @@ li {
 
 .menu__item {}
 
-.menu__link {}
+.menu__link {
+    color: rgb(19, 19, 19);
+    font-weight: 500;
+}
+.menu__link:hover{
+    opacity: 0.8;
+    color: rgb(50, 75, 241);
+}
