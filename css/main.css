@@ -44,5 +44,52 @@ li {
     display: flex;
     flex-direction: column;
 }
+.main{
+    flex: 1 1 auto;
+}
 
 /* ------------------------------------------- */
+[class *="__container"]{
+    max-width: 1230px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header {}
+
+.header__container {
+    display: flex;
+    gap: 131px;
+    min-height: 152px;
+    align-items: center;
+}
+
+.header__logo {
+  
+}
+
+.ammo {
+    font-family: 'Cal Sans';
+    margin-left: 10px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 45px;
+    color: #034c11;
+}
+.shield{
+    margin-bottom: -5px;
+}
+
+.header__menu {}
+
+.menu {}
+
+.menu__list {
+    display: flex;
+    gap: 56px;
+}
+
+.menu__item {}
+
+.menu__link {}
