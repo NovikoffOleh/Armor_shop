@@ -28,10 +28,8 @@ body {
 	font-family: Poppins;
 	color: #666666;
     /*background: url(/img/armor/camo_fon.jpeg);
-    background-size: contain;*/
-    
-	
-   
+    background-size: contain;
+    background-color: rgba(255, 251, 251, 0.4);*/
 }
 a {
 	text-decoration: none;
@@ -45,6 +43,8 @@ li {
 	min-height: 100%;
 	display: flex;
 	flex-direction: column;
+    
+    
     
 }
 /* ------------------------------------------- */
@@ -100,6 +100,22 @@ li {
 	padding: 10px 15px 10px 0px;
 	border-radius: 5px;
 	/*background-color: rgba(255, 255, 255, 0.4);*/
+}
+.menu__link-active {
+    position: relative;
+}
+
+.menu__link-active::before {
+    content: "";
+
+    position: absolute;
+    left: 0;
+    top: 100%;
+
+    display: block;
+    height: 2px;
+    width: 100%;
+    background-color: orangered;
 }
 .menu__list {
 	display: flex;
