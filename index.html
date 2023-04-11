@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Armor shop</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./css/main.css">
+    <title>Armor shop</title>
+    
 </head>
 <body>
  <div class="wrapper">
@@ -152,17 +154,17 @@
         <h2 class="brands__title title">Наші бойові <span>партнери</span></h2>
         <div class="brands__items">
             <div class="brands__item">
-                <img src="img/brands/11.jpeg" width="140" height="100" alt="Brand"> 
+                <img src="img/brands/11.jpeg" width="140" height="80" alt="Brand"> 
                 
             </div>
             <div class="brands__item">
-                <img src="img/brands/12.png" width="140" height="100" alt="Brand">
+                <img src="img/brands/12.png" width="140" height="80" alt="Brand">
             </div>
             <div class="brands__item">
-                <img src="img/brands/13.webp" width="140" height="100" alt="Brand">
+                <img src="img/brands/13.webp" width="140" height="80" alt="Brand">
             </div>
             <div class="brands__item">
-                <img src="img/brands/14.jpeg" width="140" height="100" alt="Brand">
+                <img src="img/brands/14.jpeg" width="140" height="80" alt="Brand">
             </div>
             <!--<div class="brands__item">
                 <img src="img/brands/05.jpg" alt="Brand">
@@ -210,8 +212,90 @@
         </div>
     </div>
 </section>
+<!------------------------------------------------------------------------------------->
+<section class="page__reviews reviews">
+    <div class="reviews__container">
+        <h2 class="reviews__title title">Чому ми <span>вибрали</span> саме вас</h2>
+        <div class="reviews__swiper swiper-reviews swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-reviews__wrapper swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-reviews__slide slide-swiper-reviews swiper-slide">
+                    <div class="slide-swiper-reviews__picture">
+                        <div class="slide-swiper-reviews__image">
+                            <img src="img/reviews/01.png" alt="Reviews">
+                        </div>
+                    </div>
+                    <div class="slide-swiper-reviews__body">
+                        <div class="slide-swiper-reviews__text">
+                            “Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore voluptatem facere aliquid porro velit consectetur animi minima ipsa! ”
+                        </div>
+                        <div class="slide-swiper-reviews__author">
+                            <div class="slide-swiper-reviews__name">Іван Петренко</div>
+                            <div class="slide-swiper-reviews__position">Тактичний медик</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-reviews__slide slide-swiper-reviews swiper-slide">
+                    <div class="slide-swiper-reviews__picture">
+                        <div class="slide-swiper-reviews__image">
+                            <img src="img/reviews/01.png" alt="Reviews">
+                        </div>
+                    </div>
+                    <div class="slide-swiper-reviews__body">
+                        <div class="slide-swiper-reviews__text">
+                            <p>  “Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore voluptatem facere aliquid porro velit consectetur animi minima ipsa! ”</p>
+                            <p>  “Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore voluptatem facere aliquid porro velit consectetur animi minima ipsa! ”</p>
+                        </div>
+                        <div class="slide-swiper-reviews__author">
+                            <div class="slide-swiper-reviews__name">Володимир Нечитайло</div>
+                            <div class="slide-swiper-reviews__position">Кулеметник</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-reviews__slide slide-swiper-reviews swiper-slide">
+                    <div class="slide-swiper-reviews__picture">
+                        <div class="slide-swiper-reviews__image">
+                            <img src="img/reviews/01.png" alt="Reviews">
+                        </div>
+                    </div>
+                    <div class="slide-swiper-reviews__body">
+                        <div class="slide-swiper-reviews__text">
+                            “Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore voluptatem facere aliquid porro velit consectetur animi minima ipsa! ”
+                        </div>
+                        <div class="slide-swiper-reviews__author">
+                            <div class="slide-swiper-reviews__name">Дмитро Мороз</div>
+                            <div class="slide-swiper-reviews__position">Командир розвідбату</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-reviews__pagination swiper-pagination"></div>
+        </div>
+    </div>
+</section>
 
-        </main>
+<!--------------------------------------------------------------------------------------->
+<section class="page__favorite favorite">
+    <div class="favorite__container">
+        <div class="favorite__body">
+            <h2 class="favorite__title title">Вибери собі <span>захист</span> від нашої компанії</h2>
+            <div class="favorite__apps apps-favorite">
+                <a href="" class="apps-favorite__item">
+                    <img src="img/favorite/google.jpg" alt="google">
+                </a>
+                <a href="" class="apps-favorite__item">
+                    <img src="img/favorite/apple.jpg" alt="apple">
+                </a>
+            </div>
+        </div>
+        <div class="favorite__images">
+            <img src="img/favorite/image.jpg" alt="Image">
+        </div>
+    </div>
+</section>
+</main>
  <!---------------------------------------------------------------------------->
            <footer class="footer">
             <footer class="footer">
@@ -294,6 +378,7 @@
 
 
 
- <script src="./js/js.js"></script>   
+ <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+<script src="js/script.js"></script>  
 </body>
 </html>
