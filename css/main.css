@@ -26,7 +26,7 @@ body {
 body {
 	line-height: 1;
 	font-family: Poppins;
-	color: #666666;
+	/*color: #666666;*/
 	/*background-image: linear-gradient(rgba(219, 219, 221, 0.7), rgba(219, 219, 221, 0.7)),url(/img/armor/camo_fon.jpeg);*/
 }
 a {
@@ -36,7 +36,7 @@ li {
 	list-style: none;
 }
 .body{
-background-image: linear-gradient(rgba(219, 219, 221, 0.7), rgba(219, 219, 221, 0.7)),url(/img/armor/camo_fon.jpeg);
+background-image: linear-gradient(rgba(227, 248, 223, 0.7), rgba(205, 228, 219, 0.7)),url(/img/armor/camo_fon.jpeg);
 }
 /* ---------------------------------------- */
 .wrapper {
