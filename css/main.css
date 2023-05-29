@@ -225,7 +225,7 @@ li {
 	padding: 18.5px 48px;
 	background-color: #0e6922;
 	border-radius: 40px;
-	color: #fff;
+	color: rgb(239, 142, 106);
 	font-weight: 600;
 	line-height: 28px;
 	transition: all 0.3s ease 0s;
@@ -878,7 +878,7 @@ li {
 .name{
 
 color: #121212;
-	
+
 }
 
 .body-footer {
