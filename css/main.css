@@ -241,7 +241,9 @@ background-image: linear-gradient(rgba(219, 219, 221, 0.7), rgba(219, 219, 221, 
 	margin-right: 40px;
 }
 
-.actions-main__icon {}
+.actions-main__icon:hover {
+	opacity: 0.6;
+}
 
 .actions-main__icon:not(:last-child) {
 	margin-right: 27px;
