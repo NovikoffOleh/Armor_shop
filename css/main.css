@@ -238,9 +238,12 @@ li {
 
 .actions-main__button:not(:last-child) {
 	margin-right: 40px;
+	/*margin-left: 20px;*/
+}
+.actions-main__button {
+	
 	margin-left: 20px;
 }
-
 /*.actions-main__icon{
 	margin-left: 30px;
 	margin-bottom: 15px;
