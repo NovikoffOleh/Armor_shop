@@ -36,7 +36,7 @@ li {
 	list-style: none;
 }
 .body{
-background-image: linear-gradient(rgba(227, 248, 223, 0.7), rgba(205, 228, 219, 0.7)),url(/img/armor/camo_fon.jpeg);
+background-image: url(/img/armor/camo_fon.jpeg);
 }
 /* ---------------------------------------- */
 .wrapper {
