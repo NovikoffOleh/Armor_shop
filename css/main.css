@@ -279,7 +279,7 @@ li {
 .main__image::after {
 	content: "";
 	background: url('../img/main/decor.svg') 0 0 no-repeat;
-    
+	
 	width: 80px;
 	height: 80px;
 	right: 36.3%;
